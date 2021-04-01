@@ -200,6 +200,7 @@ img {
 }
 
 .menu-link,
+.linkA,
 .linkM,
 .linkT {
   display: block;
@@ -225,7 +226,7 @@ img {
   color: var(--color-link);
   font-weight: 500;
 
-  transition-property: fill,color;
+  transition-property: fill, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -346,7 +347,7 @@ img {
 .slogan-button:hover,
 .slogan-button:focus {
   color: var(--btn-color);
-  background-color: var(--hover-color);  
+  background-color: var(--hover-color);
 }
 
 .slogan-button:active {
@@ -420,7 +421,7 @@ img {
 }
 
 .marits-icon {
-    height: 70px;
+  height: 70px;
 }
 
 /*TODO icons-svg marits section end*/
@@ -466,7 +467,6 @@ img {
   height: 25%;
   background-color: rgba(47, 48, 58, 0.8);
   opacity: 0.8;
-  
 }
 
 .business-card-name {
@@ -480,7 +480,6 @@ img {
   text-transform: uppercase;
   color: #fff;
   padding: 27px 82px;
-  
 }
 
 /* business section end */
@@ -540,7 +539,6 @@ img {
   width: 44px;
   height: 44px;
   background-color: transparent;
-  
 }
 
 .social-item:not(:last-child) {
@@ -801,6 +799,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-zsix);
   padding: 0;
+}
+
+.linkA {
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .link-footer:hover,
