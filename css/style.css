@@ -90,6 +90,9 @@ a:focus {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  padding: 10px;
+
+  position: relative;
 }
 
 .visually-hidden {
@@ -182,12 +185,27 @@ img {
   margin-right: 50px;
 }
 
+.menu-link.current::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 .menu-link,
 .linkM,
 .linkT {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* TODO sprite for connect */
@@ -421,42 +439,34 @@ img {
   text-align: center;
 }
 
-
-.business-thumb{
-	position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-	
+.business-thumb {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
-.business-thumb::before{
-	display: inline-block;
-	position: absolute;
-	content: '';
-	width: 100%;
-	height: 25%;
-	background-color: rgba(47, 48, 58, 0.8);
+.business-thumb::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 25%;
+  background-color: rgba(47, 48, 58, 0.8);
 }
 
-.business-card-name{
-	position: absolute;
-	
+.business-card-name {
+  position: absolute;
 }
 
-.business-card-title{
-
-line-height: 1.14;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #fff;
-padding: 27px 82px;
-
-
-
+.business-card-title {
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 27px 82px;
 }
-
 
 /* business section end */
 
