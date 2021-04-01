@@ -421,6 +421,43 @@ img {
   text-align: center;
 }
 
+
+.business-thumb{
+	position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+	
+}
+
+.business-thumb::before{
+	display: inline-block;
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 25%;
+	background-color: rgba(47, 48, 58, 0.8);
+}
+
+.business-card-name{
+	position: absolute;
+	
+}
+
+.business-card-title{
+
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+padding: 27px 82px;
+
+
+
+}
+
+
 /* business section end */
 
 /*? TEAM */
