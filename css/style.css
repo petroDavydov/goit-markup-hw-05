@@ -355,9 +355,7 @@ img {
   color: var(--btn-color);
 }
 
-
 /* Modal window */
-
 
 .backdrop-slogan {
   position: fixed;
@@ -384,9 +382,26 @@ img {
 
   background-color: #fff;
 }
+/* close icon */
+.modal-slogan-close {
+  border: none;
+  background: none;
+}
 
+.close-icon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
 
+  width: 30px;
+  height: 30px;
+  padding: 5px;
 
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  
+}
+/* close-icon end */
 
 /* slogan section end */
 
