@@ -64,9 +64,17 @@
       <section class="section slogan" id="slogan">
         <div class="container">
           <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="btn slogan-button" id="slogan-button">
+          <button data-modal-open type="button" class="btn slogan-button" id="slogan-button">
             Заказать услугу
           </button>
+        </div>
+
+        <div data-modal class="backdrop-slogan is-hidden">
+          <div class="modal-slogan">
+            <button data-modal-close type="button" class="modal-slogan-close">
+              X
+            </button>
+          </div>
         </div>
       </section>
 
@@ -136,7 +144,7 @@
           <ul class="business-direction">
             <li class="business-item">
               <div class="business-thumb">
-                <a href="" class="link business-link">					
+                <a href="" class="link business-link">
                   <img
                     class="business-img"
                     src="./images/box-1.jpg"
@@ -144,11 +152,11 @@
                     width="370"
                   />
                 </a>
-				<div class="business-card-name">
-					<h4 class="business-card-title">
-						Десктопные приложения
-					</h4>
-				</div>
+                <div class="business-card-name">
+                  <h4 class="business-card-title">
+                    Десктопные приложения
+                  </h4>
+                </div>
               </div>
             </li>
 
@@ -162,11 +170,11 @@
                     width="370"
                   />
                 </a>
-				<div class="business-card-name">
-					<h4 class="business-card-title">
-						Мобильные приложения
-					</h4>
-				</div>
+                <div class="business-card-name">
+                  <h4 class="business-card-title">
+                    Мобильные приложения
+                  </h4>
+                </div>
               </div>
             </li>
 
@@ -180,11 +188,11 @@
                     width="370"
                   />
                 </a>
-				<div class="business-card-name">
-					<h4 class="business-card-title">
-						Дизайнерские решения
-					</h4>
-				</div>
+                <div class="business-card-name">
+                  <h4 class="business-card-title">
+                    Дизайнерские решения
+                  </h4>
+                </div>
               </div>
             </li>
           </ul>
@@ -460,8 +468,6 @@
       </section>
     </main>
 
-  
-
     <footer class="footer" id="footer">
       <div class="container footer-container">
         <ul class="wrap-footer-content">
@@ -474,15 +480,15 @@
                 <ul class="footer-list">
                   <li class="footer-list-item">
                     <address class="address" id="address">
-						<a
-						  href="https://goo.gl/maps/fL9K5bsfUm9z82oU8"
-						  rel="noopener noreferrer nofollow"
-						  target="_blank"
-						  class="link-footer linkA"
-						>
-						  г. Киев, пр-т Леси Украинки, 26
-						</a>
-					  </address>
+                      <a
+                        href="https://goo.gl/maps/fL9K5bsfUm9z82oU8"
+                        rel="noopener noreferrer nofollow"
+                        target="_blank"
+                        class="link-footer linkA"
+                      >
+                        г. Киев, пр-т Леси Украинки, 26
+                      </a>
+                    </address>
                   </li>
                   <li class="footer-list-item">
                     <a
@@ -543,5 +549,6 @@
         </ul>
       </div>
     </footer>
+	<script src="./modal.js"></script>
   </body>
 </html>
