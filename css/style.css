@@ -359,6 +359,7 @@ img {
 
 .backdrop-slogan {
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
@@ -784,6 +785,7 @@ img {
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
 
+  transition-property: transform;
   transform: translateY(101%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
