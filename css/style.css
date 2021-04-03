@@ -627,6 +627,45 @@ img {
 }
 
 /* TODO team svg icon end */
+
+/* ==ROTATE==== */
+.team-rotate-container {
+  position: relative;
+  perspective: 500;
+}
+
+.team-rotate-card {
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+
+.team-rotate-card:hover {
+  transform: rotateY(180deg);
+}
+
+.team-rotate-card .team-member-thumb {
+  backface-visibility: hidden;
+}
+
+.team-rotate-card .team-back {
+  transform: rotateY(180deg);
+}
+
+.team-back {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.team-back-title {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 700;
+  color: chartreuse;
+}
+/* ==ROTATE end==== */
+
 /* team section end*/
 
 /*? Clients section */
