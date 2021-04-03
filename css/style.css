@@ -396,23 +396,23 @@ img {
 
 /* close icon */
 .modal-slogan-close {
-	position: absolute;
-	right: 14px;
-    top: 14px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background: none;
-    
-   
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: none;
 }
 .close-icon {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    cursor: pointer;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
 }
 /* close-icon end */
 
