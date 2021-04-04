@@ -639,7 +639,8 @@ img {
   transition: all 1s ease-in-out;
 }
 
-.team-rotate-card:hover {
+.team-rotate-card:hover,
+.team-rotate-card:focus {
   transform: rotateY(180deg);
 }
 
