@@ -629,7 +629,7 @@ img {
 /* ==ROTATE==== */
 .team-rotate-container {
   position: relative;
-  perspective: 500;
+  background-color: rgba(191,126,33 , .5);
 }
 
 .team-rotate-card {
