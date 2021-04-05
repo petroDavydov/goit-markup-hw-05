@@ -629,7 +629,7 @@ img {
 /* ==ROTATE==== */
 .team-rotate-container {
   position: relative;
-  background-color: rgba(191,126,33 , .5);
+  background-color: rgba(191, 126, 33, 0.5);
 }
 
 .team-rotate-card {
@@ -654,25 +654,21 @@ img {
   position: absolute;
   top: 20%;
   padding-right: 15px;
-    padding-left: 15px;
+  padding-left: 15px;
 }
-
-
 
 .team-back-title {
-	
-	font-family: "Roboto", sans-serif;
-    font-style: italic;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-  
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
 }
 
-.team-back-title-span{
-	font-size: 12px;
-    font-style: italic;
-    font-weight: 300;
+.team-back-title-span {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
 }
 /* ==ROTATE end==== */
 
